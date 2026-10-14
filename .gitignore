@@ -1,0 +1,29 @@
+# Fichiers objets et bibliothèques
+*.o
+*.obj
+*.a
+*.so
+
+# Exécutables (les noms sans extension sont à adapter)
+*.out
+*.exe
+a.out
+/demo
+/vec
+/structures
+
+# Dossiers de compilation
+build/
+bin/
+
+# Débogage
+*.dSYM/
+core
+vgcore.*
+
+# Éditeurs et système
+.vscode/
+.idea/
+*~
+*.swp
+.DS_Store
