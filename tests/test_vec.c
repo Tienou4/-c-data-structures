@@ -1,6 +1,6 @@
+#include "../include/vec.h"
 #include <assert.h>
 #include <stdio.h>
-#include "vec.h"
 
 static void test_init(void) {
     vec v;

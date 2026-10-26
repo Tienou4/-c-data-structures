@@ -16,6 +16,8 @@ int  vec_pop(vec *v, int *out);                 /* retire le dernier ; 0 si vide
 int  vec_get(const vec *v, size_t i, int *out); /* lit data[i] ; 0 si hors limites */
 void vec_print(const vec *v);                   /* affiche le contenu            */
 void vec_clear(vec *v);                         /* size = 0, mémoire conservée   */
-void vec_free(vec *v);                          /* libère la mémoire             */
+void vec_free(vec *v);   
 
 #endif
+
+
